@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1f1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>All Apps — KnowBoran launcher</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="bar">
+  <button id="prev" class="nav" aria-label="Previous app">‹</button>
+  <nav id="tabs" role="tablist" aria-label="Apps"></nav>
+  <button id="next" class="nav" aria-label="Next app">›</button>
+  <button id="timer" class="pill" title="Auto-switch: tap to pause / resume"><span id="tIcon">⏸</span> <span id="tTxt">--:--</span></button>
+  <button id="ext" class="icon" title="Open this app in a new tab" aria-label="Open in new tab">↗</button>
+  <button id="gear" class="icon" title="Settings" aria-label="Settings">⚙</button>
+</header>
+<main id="stage">
+  <div class="edge left" id="edgeL" aria-hidden="true"></div>
+  <div class="edge right" id="edgeR" aria-hidden="true"></div>
+</main>
+<footer id="swipe" aria-label="Swipe here to switch apps">
+  <span class="hint">‹</span><span id="curName"></span><span id="pos"></span><span class="hint">›</span><a id="ext2" href="#" target="_blank" rel="noopener" aria-label="Open in new tab">↗</a>
+</footer>
+<div id="toast" role="status"></div>
+
+<section id="panel" hidden>
+  <div class="sheet">
+    <div class="sheetHead"><h2>Settings</h2><button id="close" class="icon" aria-label="Close">✕</button></div>
+
+    <div class="group">
+      <label class="row"><span>Auto-switch apps</span><input type="checkbox" id="sAuto"></label>
+      <label class="row"><span>Switch every (minutes, aligned to the clock)</span>
+        <select id="sInt"><option>1</option><option>2</option><option>5</option><option selected>10</option><option>15</option><option>20</option><option>30</option><option>60</option></select></label>
+      <label class="row"><span>Keep screen on</span><input type="checkbox" id="sWake"></label>
+      <label class="row"><span>Keep this many apps loaded in memory</span>
+        <select id="sKeep"><option>2</option><option>3</option><option selected>4</option><option>6</option><option>8</option></select></label>
+      <p class="note" id="wakeNote"></p>
+    </div>
+
+    <div class="group">
+      <h3>Apps in the rotation</h3>
+      <div class="rowBtns"><button id="allOn">All</button><button id="allOff">None</button></div>
+      <div id="appList"></div>
+    </div>
+
+    <div class="group ayah" id="ayahCard">
+      <h3>الإنفاق في سبيل الله <small>· Spending in the cause of Allah</small></h3>
+      <p class="ar" id="ayAr" dir="rtl" lang="ar"></p>
+      <p class="en" id="ayEn"></p>
+      <p class="ref" id="ayRef"></p>
+      <div class="rowBtns"><button id="ayPrev">‹</button><button id="ayNext">›</button></div>
+    </div>
+
+    <div class="group referral">
+      <h3>Tools we use</h3>
+      <p><a href="https://postiz.pro/mr-bug" target="_blank" rel="noopener">Postiz</a> <span class="tag">referral link</span></p>
+      <p class="note">This is a referral link: signing up through it may earn us a commission. It is separate from the ayat above.</p>
+    </div>
+
+    <div class="group about">
+      <h3>About</h3>
+      <p>All of Rafeh's live apps in one place, for families and Quran learners. Swipe on the bottom bar or the screen edges, tap a tab, or use ‹ ›. Arrow keys work on a keyboard.</p>
+      <p class="note">Quran text: api.alquran.cloud (Uthmani, English by Pickthall). Source: <a href="https://github.com/mrbugimposter3-ship-it/all-apps" target="_blank" rel="noopener">github.com/mrbugimposter3-ship-it/all-apps</a></p>
+    </div>
+  </div>
+</section>
+<script src="infaq.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

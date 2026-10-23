@@ -1,0 +1,320 @@
+{
+ "owner": "mrbugimposter3-ship-it",
+ "apps": [
+  {
+   "repo": "codex-of-azeroth",
+   "name": "Codex Of Azeroth",
+   "description": "⚔ A WoW-themed encyclopedia of the Quran — each of the 6,236 verses gets its own unique codex page: classes, spells, zones, dungeons & raids.",
+   "url": "https://mrbugimposter3-ship-it.github.io/codex-of-azeroth/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T19:09:19Z"
+  },
+  {
+   "repo": "daily-loading-screen",
+   "name": "Daily Loading Screen",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/daily-loading-screen/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T14:52:47Z"
+  },
+  {
+   "repo": "dar-al-bina",
+   "name": "Dar Al Bina",
+   "description": "🕌 The Ancient Builder's Game — Build the House of Wisdom verse by verse | 28 Arabic letters → 28 nature-friendly building materials | Green ancient aesthetic",
+   "url": "https://mrbugimposter3-ship-it.github.io/dar-al-bina/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-10T22:15:18Z"
+  },
+  {
+   "repo": "episode-forge",
+   "name": "Episode Forge",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/episode-forge/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-16T10:39:27Z"
+  },
+  {
+   "repo": "fx-trainer",
+   "name": "FX Trainer",
+   "description": "Practice forex trading on real historical ECB rates",
+   "url": "https://mrbugimposter3-ship-it.github.io/fx-trainer/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T07:06:40Z"
+  },
+  {
+   "repo": "haramain-flights-live",
+   "name": "Haramain Flights Live",
+   "description": "Live departures from Makkah, Madinah and Al-Aqsa airports: coordinate differences, mod 27 and modes by prayer window",
+   "url": "https://mrbugimposter3-ship-it.github.io/haramain-flights-live/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-23T18:39:59Z"
+  },
+  {
+   "repo": "juz-daily",
+   "name": "Juz Daily",
+   "description": "ورد الجزء اليومي — daily juz calendar, Al-Ossi recitation with word highlighting",
+   "url": "https://mrbugimposter3-ship-it.github.io/juz-daily/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-22T18:14:57Z"
+  },
+  {
+   "repo": "KoranCube",
+   "name": "KoranCube",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/KoranCube/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-10T15:15:26Z"
+  },
+  {
+   "repo": "Mevlanas",
+   "name": "Mevlanas Hifz",
+   "description": "KnowBoran Hifz: fast Quran memorization app (Android)",
+   "url": "https://mrbugimposter3-ship-it.github.io/Mevlanas/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-21T20:47:49Z"
+  },
+  {
+   "repo": "my-day-coach",
+   "name": "My Day Coach",
+   "description": "Hand-drawn daily planner: prayer windows, Jummah Fridays, Quran, gaming, The Base build, news/games/jokes ticker",
+   "url": "https://mrbugimposter3-ship-it.github.io/my-day-coach/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T13:39:01Z"
+  },
+  {
+   "repo": "planner",
+   "name": "Planner",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/planner/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-23T11:18:11Z"
+  },
+  {
+   "repo": "prayer-scroll-europe",
+   "name": "Prayer Scroll Europe",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/prayer-scroll-europe/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-14T12:14:03Z"
+  },
+  {
+   "repo": "quran-28",
+   "name": "Quran 28",
+   "description": "Quran with 28 Arabic letters swapped for substitute sets",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-28/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T07:04:16Z"
+  },
+  {
+   "repo": "quran-blitz",
+   "name": "Quran Blitz",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-blitz/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-10T12:57:37Z"
+  },
+  {
+   "repo": "quran-crawler",
+   "name": "Quran Crawler",
+   "description": "Quran Dungeon - a text-based crawler where the Quran walks a 14x14 grid in real time",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-crawler/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-10T19:43:35Z"
+  },
+  {
+   "repo": "quran-cube",
+   "name": "Quran Cube",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-cube/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T15:18:11Z"
+  },
+  {
+   "repo": "quran-elements",
+   "name": "Quran Elements",
+   "description": "عناصر التلاوة: daily Quran Recorder stamps mapped to periodic-table elements",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-elements/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-22T14:28:47Z"
+  },
+  {
+   "repo": "quran-fast-reader",
+   "name": "Quran Fast Reader",
+   "description": "Fast Quran reader: teleprompter or side-scroll, finish in N hours",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-fast-reader/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-20T13:41:35Z"
+  },
+  {
+   "repo": "quran-live-map",
+   "name": "Quran Live Map",
+   "description": "The Quran walking a 14x14 letter grid in real time",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-live-map/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-10T11:51:37Z"
+  },
+  {
+   "repo": "quran-memorizer",
+   "name": "Quran Memorizer",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-memorizer/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T15:19:41Z"
+  },
+  {
+   "repo": "quran-number-words",
+   "name": "Quran Number Words",
+   "description": "Quran words mapped to English words by letter-sum mod 28",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-number-words/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-16T02:28:45Z"
+  },
+  {
+   "repo": "quran-overlay",
+   "name": "Quran Overlay",
+   "description": "Quran ayah overlay — math sequences, letter code, works offline",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-overlay/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-18T11:59:50Z"
+  },
+  {
+   "repo": "quran-quest",
+   "name": "Quran Quest",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-quest/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-15T06:12:24Z"
+  },
+  {
+   "repo": "quran-reader",
+   "name": "Quran Reader",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-reader/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-11T06:56:25Z"
+  },
+  {
+   "repo": "quran-recorder",
+   "name": "Quran Recorder",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-recorder/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-23T18:31:24Z"
+  },
+  {
+   "repo": "quran-rhymes",
+   "name": "Quran Rhymes",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-rhymes/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-21T20:47:50Z"
+  },
+  {
+   "repo": "quran-rush",
+   "name": "Quran Rush",
+   "description": "Quran Rush – fast-paced, tap-heavy Quran memorization arcade game (Al-Fatiha + Juz Amma)",
+   "url": "https://mrbugimposter3-ship-it.github.io/quran-rush/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-18T01:35:09Z"
+  },
+  {
+   "repo": "quranmix",
+   "name": "QuranMix",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/quranmix/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T15:17:06Z"
+  },
+  {
+   "repo": "sajal-publisher",
+   "name": "Sajal Publisher",
+   "description": "Privacy policy and terms for the Sajal Publisher YouTube tool",
+   "url": "https://mrbugimposter3-ship-it.github.io/sajal-publisher/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-22T23:50:36Z"
+  },
+  {
+   "repo": "shadow-of-the-ayah",
+   "name": "Shadow Of The Ayah",
+   "description": "A Quran reading ninja RPG covering all 114 surahs",
+   "url": "https://mrbugimposter3-ship-it.github.io/shadow-of-the-ayah/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-22T23:59:17Z"
+  },
+  {
+   "repo": "SurahCube",
+   "name": "SurahCube",
+   "description": "",
+   "url": "https://mrbugimposter3-ship-it.github.io/SurahCube/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-11T00:09:01Z"
+  },
+  {
+   "repo": "text-matcher",
+   "name": "Text Matcher",
+   "description": "Compare texts by shared word sequences and search Project Gutenberg",
+   "url": "https://mrbugimposter3-ship-it.github.io/text-matcher/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-12T06:36:07Z"
+  },
+  {
+   "repo": "the-114-lock",
+   "name": "The 114 Lock",
+   "description": "A 114-surah combination lock. The gate opens only when the correct surahs are set — and the code changes with every prayer.",
+   "url": "https://mrbugimposter3-ship-it.github.io/the-114-lock/",
+   "icon": "",
+   "frameable": true,
+   "pushed_at": "2026-10-14T01:21:29Z"
+  }
+ ],
+ "skipped": [
+  {
+   "repo": "BanQ",
+   "reason": "private"
+  },
+  {
+   "repo": "dungeon-master-dragons",
+   "reason": "no GitHub Pages site"
+  },
+  {
+   "repo": "geronimo-books-private",
+   "reason": "private"
+  },
+  {
+   "repo": "NewZorkUI",
+   "reason": "no GitHub Pages site"
+  }
+ ]
+}

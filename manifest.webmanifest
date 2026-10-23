@@ -1,0 +1,2 @@
+{"name":"All Apps","short_name":"All Apps","start_url":"./","scope":"./","display":"standalone","orientation":"any","background_color":"#0b1f1a","theme_color":"#0b1f1a",
+"icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
