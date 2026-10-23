@@ -4,7 +4,7 @@ import android.view.View;import android.view.ViewGroup;import android.view.Windo
 /* All Apps: WebView wrapper around https://mrbugimposter3-ship-it.github.io/all-apps/ — JS, DOM storage, autoplay, screen kept on. */
 public class Main extends Activity{
 static final String HOME="https://mrbugimposter3-ship-it.github.io/all-apps/";
-WebView w;FrameLayout root;View full;WebChromeClient.CustomViewCallback fullCb;
+WebView w;FrameLayout root;View full;WebChromeClient.CustomViewCallback fullCb;WebChromeClient chrome;
 protected void onCreate(Bundle b){super.onCreate(b);
  getWindow().setStatusBarColor(0xff102b24);getWindow().setNavigationBarColor(0xff102b24);
  getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -20,7 +20,7 @@ protected void onCreate(Bundle b){super.onCreate(b);
    if(u.startsWith(HOME))return false; ext(r.getUrl());return true;}
   public void onReceivedError(WebView v,WebResourceRequest r,WebResourceError e){
    if(r.isForMainFrame())v.loadData("<body style='background:#0b1f1a;color:#eaf4ef;font:18px sans-serif;display:flex;align-items:center;justify-content:center;height:90vh;text-align:center'><div><h2>No connection</h2><p>All Apps needs the internet.</p><button onclick=\"location.href='"+HOME+"'\" style='font-size:18px;padding:12px 20px;border-radius:12px'>Retry</button></div>","text/html","utf-8");}});
- w.setWebChromeClient(new WebChromeClient(){
+ w.setWebChromeClient(chrome=new WebChromeClient(){
   /* target=_blank / window.open ("Open in new tab") -> system browser */
   public boolean onCreateWindow(WebView v,boolean dlg,boolean user,Message m){
    WebView t=new WebView(Main.this);t.setWebViewClient(new WebViewClient(){public boolean shouldOverrideUrlLoading(WebView x,WebResourceRequest r){ext(r.getUrl());return true;}});
@@ -37,5 +37,5 @@ protected void onPause(){super.onPause();w.onPause();}
 protected void onResume(){super.onResume();w.onResume();}
 /* the launcher's "Keep screen on" toggle calls AndroidWake.set(bool) */
 class Wake{@JavascriptInterface public void set(final boolean on){runOnUiThread(new Runnable(){public void run(){if(on)getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);else getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);}});}}
-public void onBackPressed(){if(full!=null){w.getWebChromeClient();return;}
+public void onBackPressed(){if(full!=null){chrome.onHideCustomView();return;}
  w.evaluateJavascript("(function(){var p=document.getElementById('panel');if(p&&!p.hidden){p.hidden=true;return 1}return 0})()",new ValueCallback<String>(){public void onReceiveValue(String v){if(!"1".equals(v))moveTaskToBack(true);}});}}
